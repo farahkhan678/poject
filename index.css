@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 6px;
+  width: 100%;
+  font-family: "Roboto";
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  color: #cd264f;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  align-items: center;
+  text-align: center;
+}
+
+.hr-lines {
+  position: relative;
+  max-width: 500px;
+  align-items: center;
+
+  /*  margin-left: 15%; */
+}
+
+.hr-lines:before {
+  content: " ";
+  height: 2px;
+  width: 140px;
+  background: #cd264f;
+  /* display: block; */
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.hr-lines:after {
+  content: " ";
+  height: 2px;
+  width: 140px;
+  background: #cd264f;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.one-pair-cont {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border: 1px solid #c8c8c8;
+  width: 80%;
+  margin: 10px;
+  color: #000000;
+}
+
+.one-pair {
+  display: flex;
+  margin: 10px;
+}
+
+.radio-btn {
+  height: 16px;
+  width: 20px;
+  margin-top: 10px;
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.pair {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0px;
+  padding: 0px 0px 4px 0px;
+}
+
+.dkk {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0px;
+  padding: 1px;
+}
+
+.off {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 30%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.one-pair-cont-two {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border: 2px solid #cd264f;
+  width: 80%;
+  margin: 10px;
+  color: #000000;
+  background-color: #fff4f7;
+}
+
+.radio-btn-two {
+  accent-color: #cd264f;
+  height: 16px;
+  width: 20px;
+  margin-top: 10px;
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.dkk-sec {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0px;
+  padding: 1px;
+}
+
+.Most-popular {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0px;
+  padding: 1px;
+  color: #cd264f;
+}
+
+.size-and-colur-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.size-and-colur {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.size-and-colur-sect-cont {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+}
+
+.s-c {
+  margin-left: 25px;
+}
+
+.hash-P {
+  width: 20px;
+}
+
+.selector {
+  width: 50%;
+  margin-right: 10px;
+}
+
+.Free-ship {
+  display: flex;
+  justify-content: space-between;
+  /*  align-items: flex-start; */
+  width: 80%;
+}
+
+.Free-ship-2day {
+  font-size: 14px;
+  color: #cd264f;
+  font-weight: 600;
+  width: 50%;
+}
+
+.Total {
+  width: 50%;
+  text-align: right;
+  align-items: flex-end;
+}
+
+.Add-cart {
+  width: 80%;
+}
+
+.Add-to-cart {
+  background-color: #cd264f;
+  border: none;
+  height: 55px;
+  border-radius: 5px;
+  border-bottom-left-radius: 0px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+}
